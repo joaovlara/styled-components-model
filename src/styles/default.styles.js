@@ -10,7 +10,7 @@ export const Container = styled.section`
     justify-content: center;
     align-items: center;
 
-    background-color: ${(props) => props.theme.colors.black};
+    background-color: ${(props) => props.color || props.theme.colors.black};
 `;
 
 export const Box = styled.div`
@@ -18,7 +18,7 @@ export const Box = styled.div`
     height: 80vh;
     width: 90vw;
     border-radius: 15px;
-    border: solid 5px ${(props) => props.theme.colors.light};
+    border: solid 5px ${(props) => props.borderColor || props.theme.colors.light};
 `;
 
 export const Stack = styled.div`

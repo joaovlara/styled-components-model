@@ -30,5 +30,13 @@ export const Caption = styled.p`
     font-weight: 400;
     font-style: normal;
 
-    color: white;
+    color: ${(props) => props.color || props.theme.colors.light};
+`;
+
+export const TagText = styled.p`
+    font-family: "Ubuntu Mono", serif;
+    font-weight: bold;
+    font-style: normal;
+
+    color: ${(props) => props.color || props.theme.colors.light};
 `;
