@@ -1,6 +1,6 @@
 import { Item } from "./styles.card";
 
-const Index = () => {
+const Card = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Card
