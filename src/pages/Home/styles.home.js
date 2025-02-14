@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
-export const Item =styled.span`
-    display: flex;
+export const Avatar =styled.img`
+    border-radius: 50%;
+    max-width: 20vw;
 `;
