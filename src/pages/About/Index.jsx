@@ -1,6 +1,5 @@
 import { Container, Box, Col } from "..//..//styles/default.styles";
 import NavBarBtn from "@/components/Navbar/Index";
-import { TitleMain, TitleSub, Text, Caption } from "@/styles/styles.text";
 import { useNavigate } from "react-router-dom";
 
 const About = () => {
@@ -8,7 +7,7 @@ const About = () => {
 
   return (
     <Container>
-      <NavBarBtn />
+      <NavBarBtn navColor={(props) => props.theme.colors.darkRed} />
       <Box borderColor={(props) => props.theme.colors.darkRed}>
         <Col>
           1

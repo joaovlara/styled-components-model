@@ -27,34 +27,42 @@ export const ButtonDefault = styled.button`
   font-weight: bold;
   transition: all 0.3s ease-in-out;
 
-  ${({ theme, variant, color, borderColor }) => {
-        switch (variant) {
-            case "primary":
-                return css`
+  ${({ theme, variant, color, borderColor, $active }) => {
+    // Se ativo, fundo igual à cor da borda
+    if ($active) {
+      return css`
+        background-color: ${borderColor || theme.colors.primary};
+        border: 2px solid ${borderColor || theme.colors.primary};
+        color: white;
+      `;
+    }
+    switch (variant) {
+      case "primary":
+        return css`
           background-color: ${color || theme.colors.primary};
           border: 2px solid ${borderColor || theme.colors.primary};
           color: white;
         `;
-            case "outline":
-                return css`
+      case "outline":
+        return css`
           background-color: transparent;
           border: 2px solid ${borderColor || theme.colors.primary};
           color: ${color || theme.colors.primary};
         `;
-            case "ghost":
-                return css`
+      case "ghost":
+        return css`
           background-color: transparent;
           border: none;
           color: ${color || theme.colors.primary};
         `;
-            default:
-                return css`
+      default:
+        return css`
           background-color: transparent;
           border: 2px solid white;
           color: white;
         `;
-        }
-    }}
+    }
+  }}
 
   &:hover {
     opacity: 0.8;

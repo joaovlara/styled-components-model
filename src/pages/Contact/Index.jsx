@@ -8,7 +8,7 @@ const Contact = () => {
 
   return (
     <Container>
-      <NavBarBtn />
+      <NavBarBtn navColor={(props) => props.theme.colors.secondary} />
       <Box borderColor={(props) => props.theme.colors.secondary}>
         <Col>
           1

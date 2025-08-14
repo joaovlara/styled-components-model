@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <Container>
-      <NavBarBtn />
+      <NavBarBtn navColor={(props) => props.theme.colors.accent} />
       <Box borderColor={(props) => props.theme.colors.accent}>
         <Col>
           1
