@@ -1,13 +1,13 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { GlobalStyle } from './theme/global';
+import { GlobalStyle } from '@/theme/global';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from './App.jsx';
-import Home from './pages/Home/Index';
-import About from './pages/About/Index';
-import Projects from './pages/Projects/Index';
-import Contact from './pages/Contact/Index';
-import './i18n';
+import App from '@/App.jsx';
+import Home from '@/pages/Home/Index';
+import About from '@/pages/About/Index';
+import Projects from '@/pages/Projects/Index';
+import Contact from '@/pages/Contact/Index';
+import '@/i18n';
 
 const router = createBrowserRouter([
   {

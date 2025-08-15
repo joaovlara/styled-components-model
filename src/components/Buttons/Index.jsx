@@ -1,4 +1,4 @@
-import { CustomButton } from "./styles.button";
+import { CustomButton } from "@/components/Buttons/styles.button";
 
 const Button = () => {
   return (

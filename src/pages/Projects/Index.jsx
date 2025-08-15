@@ -1,4 +1,4 @@
-import { Container, Box, Row, GridContainer } from "../../styles/default.styles";
+import { Container, Box, Row, GridContainer } from "@/styles/default.styles";
 import NavBarBtn from "@/components/Navbar/Index";
 import { useNavigate } from "react-router-dom";
 import Card from "@/components/Card/Index";

@@ -1,4 +1,4 @@
-import { Container, Box, Col } from "..//..//styles/default.styles";
+import { Container, Box, Col } from "@/styles/default.styles";
 import NavBarBtn from "@/components/Navbar/Index";
 import { TitleMain, TitleSub, Text, Caption } from "@/styles/styles.text";
 import { useNavigate } from "react-router-dom";

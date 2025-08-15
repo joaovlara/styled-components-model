@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import en from './locales/en';
-import ptbr from './locales/ptbr';
+import en from '@/i18n/locales/en';
+import ptbr from '@/i18n/locales/ptbr';
 
 i18n
   .use(initReactI18next)

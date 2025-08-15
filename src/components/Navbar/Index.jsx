@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { NavBarStack } from './styles.navbar';
-import { ButtonDefault } from '../Buttons/styles.button';
+import { NavBarStack } from '@/components/Navbar/styles.navbar';
+import { ButtonDefault } from '@/components/Buttons/styles.button';
 import { theme } from '@/theme/theme';
 
 const NavBarBtn = ({ navColor = theme.colors.teal }) => {

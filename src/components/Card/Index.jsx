@@ -1,5 +1,5 @@
 import React from "react";
-import { CardContainer, CardContent, CardFooter, FooterButton, IconColumn, Title, Description, TextColumn } from "./styles.card";
+import { CardContainer, CardContent, CardFooter, FooterButton, IconColumn, Title, Description, TextColumn } from "@/components/Card/styles.card";
 
 const Card = ({
   icon,

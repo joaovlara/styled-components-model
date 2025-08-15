@@ -1,5 +1,5 @@
-import { Container, Box, Col, Stack, Row } from "..//..//styles/default.styles";
-import { Avatar, StartBtn } from "./styles.home";
+import { Container, Box, Col, Stack, Row } from "@/styles/default.styles";
+import { Avatar, StartBtn } from "@/pages/Home/styles.home";
 import { TitleMain, TitleSub, Text } from "@/styles/styles.text";
 import NavInfos from "@/components/NavInfos/Index";
 import Gif from '@/assets/img/jwao2.gif';

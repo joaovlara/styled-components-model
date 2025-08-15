@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavBarStack } from './styles.navinfos';
-import { TagText } from '../../styles/styles.text';
+import { NavBarStack } from '@/components/NavInfos/styles.navinfos';
+import { TagText } from '@/styles/styles.text';
 
 const NavInfos = () => {
   return (

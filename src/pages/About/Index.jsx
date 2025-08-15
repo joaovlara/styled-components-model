@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Box, Col, Stack, Row } from "../../styles/default.styles";
+import { Container, Box, Col, Stack, Row } from "@/styles/default.styles";
 import { TitleMain, TitleSub, Text } from "@/styles/styles.text";
 import NavBarBtn from "@/components/Navbar/Index";
 import { IconButton } from "@/components/Buttons/styles.button";
