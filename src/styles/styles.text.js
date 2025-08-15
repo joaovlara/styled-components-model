@@ -9,14 +9,14 @@ export const TitleMain = styled.h1`
 
 export const TitleSub = styled.h3`
     font-family: "Ubuntu Mono", serif;
-
+    font-size: 1.5rem;
     color: ${(props) => props.color || 'white'};
 `;
 
 export const Text = styled.p`
     font-family: "Ubuntu Mono", serif;
-
-    color: ${(props) => props.color || 'white'};
+    font-size: 1rem;
+    color: ${(props) => props.color || 'gray'};
 `;
 
 export const Caption = styled.p`

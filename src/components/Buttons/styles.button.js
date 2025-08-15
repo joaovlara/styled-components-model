@@ -25,6 +25,7 @@ export const ButtonDefault = styled.button`
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
+  font-family: 'Press Start 2P';
   transition: all 0.3s ease-in-out;
 
   ${({ theme, variant, color, borderColor, $active }) => {
@@ -67,5 +68,20 @@ export const ButtonDefault = styled.button`
   &:hover {
     opacity: 0.8;
     transform: scale(1.05);
+  }
+`;
+
+export const IconButton = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 3rem;
+  color: ${({ color }) => color};
+  opacity: ${({ active }) => (active ? 1 : 0.5)};
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
   }
 `;

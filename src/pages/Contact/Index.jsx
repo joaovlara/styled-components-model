@@ -4,8 +4,7 @@ import { TitleMain, TitleSub, Text, Caption } from "@/styles/styles.text";
 import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-  const navigate = useNavigate();
-
+  
   return (
     <Container>
       <NavBarBtn navColor={(props) => props.theme.colors.secondary} />

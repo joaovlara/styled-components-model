@@ -14,8 +14,8 @@ export const Container = styled.section`
 
 export const Box = styled.div`
     display: flex;
-    height: 80vh;
-    width: 90vw;
+    height: 75vh;
+    width: 85vw;
     border-radius: 15px;
     border: solid 4px ${(props) => props.borderColor || props.theme.colors.light};
 `;
@@ -29,14 +29,16 @@ export const Col = styled.div`
     width: ${(props) => props.width || '50%' };
 `;
 
-export const Row = styled.span`
+export const Row = styled.div`
     display: flex;
+    width: 100%;
     padding: 5%;
 `;
 
 export const Stack = styled.div`
   display: flex;
   flex-direction: column;
+  width: ${props => props.width || '100%'};
   justify-content: ${props => props.justify || 'center'};
   align-items: ${props => props.align || 'center'};
   gap: ${props => props.gap || '5%'};
