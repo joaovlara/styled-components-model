@@ -45,3 +45,14 @@ export const Stack = styled.div`
   height: 100%;
   width: 100%;
 `;
+
+export const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+`;
