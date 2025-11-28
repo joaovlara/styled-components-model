@@ -12,4 +12,13 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Inria Sans", sans-serif; /* Fonte dos títulos */
   }
 
+  button {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
 `;

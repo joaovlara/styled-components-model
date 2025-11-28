@@ -1,11 +1,9 @@
-import { Item } from "./styles.button";
+import { CustomButton } from "@/components/Buttons/styles.button";
 
-const Index = () => {
+const Button = () => {
   return (
-    <div>
-      
-    </div>
+    <CustomButton>Button</CustomButton>
   )
-}
+};
 
-export default Index
+export default Button
